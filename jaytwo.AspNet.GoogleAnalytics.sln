@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaytwo.AspNet.GoogleAnalytics", "jaytwo.AspNet.GoogleAnalytics\jaytwo.AspNet.GoogleAnalytics.csproj", "{C2074A80-64B9-485C-B737-2D00A154999D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{31D4244B-E522-4A67-A37E-058270A9F0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFromsDemo", "WebFromsDemo\WebFromsDemo.csproj", "{784FCDA3-3AAE-44EA-9709-E4C70F346B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaytwo.AspNet.GoogleAnalytics.Test", "jaytwo.AspNet.GoogleAnalytics.Test\jaytwo.AspNet.GoogleAnalytics.Test.csproj", "{821F69A9-95BA-42DF-95EB-50AB4EFAD857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Net35|Any CPU = Net35|Any CPU
+		Net40|Any CPU = Net40|Any CPU
+		Net45|Any CPU = Net45|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net35|Any CPU.ActiveCfg = Net35|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net35|Any CPU.Build.0 = Net35|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net40|Any CPU.ActiveCfg = Net40|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net40|Any CPU.Build.0 = Net40|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net45|Any CPU.ActiveCfg = Net45|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Net45|Any CPU.Build.0 = Net45|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2074A80-64B9-485C-B737-2D00A154999D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net35|Any CPU.ActiveCfg = Net35|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net35|Any CPU.Build.0 = Net35|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net40|Any CPU.ActiveCfg = Net40|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net40|Any CPU.Build.0 = Net40|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net45|Any CPU.ActiveCfg = Net45|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Net45|Any CPU.Build.0 = Net45|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D4244B-E522-4A67-A37E-058270A9F0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net35|Any CPU.ActiveCfg = Net35|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net35|Any CPU.Build.0 = Net35|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net40|Any CPU.ActiveCfg = Net40|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net40|Any CPU.Build.0 = Net40|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net45|Any CPU.ActiveCfg = Net45|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Net45|Any CPU.Build.0 = Net45|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784FCDA3-3AAE-44EA-9709-E4C70F346B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net35|Any CPU.ActiveCfg = Net35|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net35|Any CPU.Build.0 = Net35|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net40|Any CPU.ActiveCfg = Net40|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net40|Any CPU.Build.0 = Net40|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net45|Any CPU.ActiveCfg = Net45|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Net45|Any CPU.Build.0 = Net45|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821F69A9-95BA-42DF-95EB-50AB4EFAD857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

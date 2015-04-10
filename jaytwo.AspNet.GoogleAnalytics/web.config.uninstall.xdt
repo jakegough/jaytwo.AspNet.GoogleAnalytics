@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <appSettings>
+        <add xdt:Locator="Condition(starts-with(@key,'jaytwo.AspNet.GoogleAnalytics.'))" xdt:Transform="RemoveAll"/>
+    </appSettings>
+    <system.web>
+        <httpModules>
+            <add name="GoogleAnalyticsInjectorModule" xdt:Transform="Remove" xdt:Locator="Match(name)" />
+        </httpModules>
+		</system.web>
+    <system.webServer>
+        <modules>
+            <add name="GoogleAnalyticsInjectorModule" xdt:Transform="Remove" xdt:Locator="Match(name)" />
+        </modules>
+    </system.webServer>
+</configuration>

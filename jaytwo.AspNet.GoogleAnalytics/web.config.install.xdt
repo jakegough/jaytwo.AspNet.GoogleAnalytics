@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <appSettings xdt:Transform="InsertIfMissing">
+        <add key="jaytwo.AspNet.GoogleAnalytics.Enabled" value="false" xdt:Transform="Insert" />
+        <add key="jaytwo.AspNet.GoogleAnalytics.TrackerId" value="UA-XXXX-Y" xdt:Transform="Insert" />
+        <add key="jaytwo.AspNet.GoogleAnalytics.set.appName" value="" xdt:Transform="Insert" />
+    </appSettings>
+    <system.web>
+        <httpModules>
+            <add name="GoogleAnalyticsInjectorModule" type="jaytwo.AspNet.GoogleAnalytics.GoogleAnalyticsInjectorModule, jaytwo.AspNet.GoogleAnalytics" xdt:Transform="Insert" />
+        </httpModules>
+		</system.web>
+    <system.webServer>
+        <modules>
+            <add name="GoogleAnalyticsInjectorModule" type="jaytwo.AspNet.GoogleAnalytics.GoogleAnalyticsInjectorModule, jaytwo.AspNet.GoogleAnalytics" xdt:Transform="Insert" />
+        </modules>
+    </system.webServer>
+</configuration>

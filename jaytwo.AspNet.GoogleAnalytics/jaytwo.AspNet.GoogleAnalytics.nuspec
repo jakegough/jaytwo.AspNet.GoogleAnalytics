@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>jaytwo.AspNet.GoogleAnalytics</id>
+    <version>$version$</version>
+    <description>Module to inject Google Analytics tracking script</description>
+    <authors>Jake Gough</authors>
+    <projectUrl>https://github.com/jakegough/jaytwo.AspNet.GoogleAnalytics/</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/jakegough/jaytwo.AspNet.GoogleAnalytics/master/LICENSE</licenseUrl>
+    <tags>jakegough jaytwo AspNet Google Analytics</tags>
+  </metadata>
+  <files>
+    <file src="bin\Net35\$id$.*" target="lib\net35\" />
+    <file src="bin\Net40\$id$.*" target="lib\net40\" exclude="$id$.dll" />
+    <file src="bin\Net45\$id$.*" target="lib\net45\" />
+    <file src="web.config.install.xdt" target="content\web.config.install.xdt" />
+    <file src="web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
+  </files>
+</package>
